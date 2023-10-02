@@ -125,7 +125,10 @@ class _HomePageState extends State<HomePage> {
               ),
               SizedBox(height: 20), // Add spacing
               Text(resultMessage,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.red)),
             ],
           ),
         ),
