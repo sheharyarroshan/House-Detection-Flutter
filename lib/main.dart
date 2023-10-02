@@ -127,7 +127,6 @@ class _HomePageState extends State<HomePage> {
               Text(resultMessage,
                   style: TextStyle(
                     fontSize: 18,
-                    fontWeight: FontWeight.bold,
                   )),
             ],
           ),
